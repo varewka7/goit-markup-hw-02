@@ -1,0 +1,134 @@
+:root {
+--primery-text-color:#757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--white-text-color: #FFFFFF;
+--secondery-white-color: #FFFFFF99;
+--black-text-color: #000000;
+--primery-bg-color: #F5F5F5;
+--secondery-bg-color: #F5F4FA;
+--white-bg-color : #FFFFFF;
+}
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primery-text-color);
+    background-color:var(--primery-bg-color);
+}
+
+.list {
+    list-style: none;
+}
+
+
+/* головний колір #757575 */ 
+/* вторинний колір #212121 */
+/* акцент #2196F3 */
+/* білий #FFFFFF */
+/* білий вторинний #FFFFFF99 */
+/* чорний #000000 */
+
+/* вторинний колір фону #F5F4FA*/
+
+
+/* СТИЛІ ДЛЯ INDEX.HTML*/
+
+
+/*header*/
+
+.logo {
+
+}
+
+.logo-web {
+    color:var(--accent-color) ;
+}
+
+.logo-studio {
+    color:var(--black-text-color);
+}
+
+/* site-nav*/
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* auth-nav */
+
+.auth-nav .link {
+    color: var(--primery-text-color);
+
+}
+
+.auth-nav .link:hover, 
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+/* hero */
+
+.hero-title {
+    color: var(--white-text-color);
+}
+
+.button.primery {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+/* section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* features */
+
+.features .title {
+    color: var(--title-text-color);
+}
+
+/* work list */
+
+.work .title {
+    color:var(--title-text-color);
+}
+
+/* team*/
+
+.team .title {
+    color: var(--title-text-color);
+}
+
+
+/* СТИЛІ ДЛЯ ПОРТФОЛІО */
+
+/* buttons */
+
+.buttons {
+    color: var(--title-text-color);
+    background-color: var(--white-bg-color);
+}
+
+.button.secondary { 
+    color: var(--title-text-color);
+    background-color: var(--secondery-bg-color);
+}
+
+/* projects */
