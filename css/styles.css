@@ -122,6 +122,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,62;
+
+    cursor: pointer;
 }
 
 .button.primery {
@@ -182,6 +184,7 @@ body {
 /* footer */
 
 .footer-nav {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
@@ -193,11 +196,11 @@ body {
     color: var(--white-text-color);
 }
 
-.footer-nav.address {
+.footer-nav .address {
     color: var(--white-text-color);
 }
 
-.footer-nav.link {
+.footer-nav .link {
     color: var(--secondery-white-color);
 }
 
@@ -224,12 +227,10 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-decoration: none;
 }
 
 .projects.text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1,86;
-    text-decoration: none;
 }
